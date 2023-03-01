@@ -66,27 +66,35 @@
                 </div>
 
                 <div class="form-group mt-3">
+                    <label for="">Skills</label>
+                    <textarea id="skillsfield" placeholder="Enter here" class="form-control" rows="3"></textarea>
+                </div>
+
+                <div class="form-group mt-3" id="workexfield">
                     <label for="">Work Experience</label>
-                    <textarea id="workexfield" placeholder="Enter here" class="form-control" rows="2"></textarea>
+                    <textarea placeholder="Enter here" class="form-control weField" rows="2"></textarea>
 
-                    <div class="container text-center mt-2">
-                        <button class="btn btn-primary btn-sm">Add</button>
+                    <div class="container text-center mt-2" id="weAddButton">
+                        <button onclick="addnewWex()" class="btn btn-primary btn-sm">Add</button>
                     </div>
                 </div>
 
-                <div class="form-group mt-3">
+                <div class="form-group mt-3" id="acdquafield">
                     <label for="">Academic Qualification</label>
-                    <textarea id="acdquafield" placeholder="Enter here" class="form-control" rows="2"></textarea>
+                    <textarea placeholder="Enter here" class="form-control aqField" rows="2"></textarea>
 
-                    <div class="container text-center mt-2">
-                        <button class="btn btn-primary btn-sm">Add</button>
+                    <div class="container text-center mt-2" id="weAddButton2">
+                        <button onclick="addAcadQual()" class="btn btn-primary btn-sm">Add</button>
                     </div>
                 </div>
-               
+
 
 
             </div>
 
+        </div>
+        <div class="container text-center mt-2" id="weAddButton3">
+            <button onclick="addacaQual()" class="btn btn-primary btn-lg">Generator Resume</button>
         </div>
 
     </div>

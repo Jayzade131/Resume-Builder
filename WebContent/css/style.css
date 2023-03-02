@@ -2,6 +2,14 @@
     text-align: center;
     margin: 10px;
 }
-.a2{
-    text-align: right;
+
+#cv-form{
+    display: none;
+}
+.myimg{
+    border-radius: 50%;
+    width: 200px;
+}
+.background{
+    background-color: lightskyblue;
 }

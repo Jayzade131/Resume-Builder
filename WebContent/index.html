@@ -91,7 +91,7 @@
             </div>
         </div>
         <div class="container text-center mt-2" id="weAddButton3">
-            <button onclick="addacaQual()" class="btn btn-primary btn-lg">Generator Resume</button>
+            <button onclick="genrateCv()" class="btn btn-primary btn-lg">Generate Resume</button>
         </div>
     </div>
 
@@ -102,33 +102,100 @@
                 <img src="https://campussafetyconference.com/wp-content/uploads/2020/08/iStock-476085198.jpg"
                     alt="deault profile" class="img-fluid myimg" />
                 <div class="container">
-                    <p>Jaykumar zade</p>
-                    <p>+91 9552060183</p>
-                    <p>jaykumarzade@gmail.com</p>
-                    <p>Plot no. 1004 Minimata Nagar Nagpur,India</p>
+                    <p id="nameT1">Jaykumar zade</p>
+                    <p id="contractT">+91 9552060183</p>
+                    <p id="gmailT">jaykumarzade@gmail.com</p>
+                    <p id="addressT">Plot no. 1004 Minimata Nagar Nagpur,India</p>
                     <hr>
 
                     <p>
-                        <a href="#1">instagram</a>
+                        <a id="instaT" href="#1">instagram</a>
                     </p>
                     <p>
-                        <a href="#1">Linkedin</a>
+                        <a id="LinkedinT" href="#1">Linkedin</a>
                     </p>
                     <p>
-                        <a href="#1">GitHub</a>
+                        <a id="contractT" href="#1">GitHub</a>
                     </p>
                 </div>
             </div>
 
             <!-- second col -->
             <div class="col-md-8 py-5v">
-                <h1 class="text-center" style="font-weight: 980;">Jaykumar Zade </h1>
-                 <div class="card mt-4">
-                    <div class="card-header background"></div>
-                 </div>
+                <h1 id="nameT2" class="text-center" style="font-weight: 980;">Jaykumar Zade </h1>
+                <!-- objective tab -->
+                <div class="card">
+                    <div class="card-header background">
+
+                        <h3>Objective</h3>
+
+                    </div>
+                    <div class="card-body">
+                        <p id="objectiveT">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nisi consectetur modi,
+                            deleniti est ipsa dolorem, sunt cumque perferendis omnis voluptatum incidunt vel et dolor
+                            tenetur. Quisquam nulla quis deserunt!</p>
+                    </div>
+
+                </div>
+                        <!-- Skills tab -->
+                <div class="card mt-4">
+                    <div class="card-header background">
+
+                        <h3>Skills</h3>
+
+                    </div>
+                    <div class="card-body">
+                        <p id="skillsT">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nisi consectetur modi,
+                            deleniti est ipsa dolorem, sunt cumque perferendis omnis voluptatum incidunt vel et dolor
+                            tenetur. Quisquam nulla quis deserunt!</p>
+                    </div>
+
+                </div>
+
+                    <!-- experience tab -->
+                <div class="card mt-4">
+                    <div class="card-header background">
+
+                        <h3>Work Experience</h3>
+
+                    </div>
+                    <div class="card-body">
+                        <ul id="WeT">
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+                            <!-- Academic qualification -->
+                <div class="card mt-4">
+                    <div class="card-header background">
+
+                        <h3>Academic Qualification</h3>
+
+                    </div>
+                    <div class="card-body">
+                        <ul id="aqT">
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="conatiner mt-3 text-center">
+                    <button onclick="printcv()" class="btn background">Print CV</button>   
+                     
+                </div>
+
             </div>
 
         </div>
+
+    </div>
 
     </div>
 

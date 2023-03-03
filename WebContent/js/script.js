@@ -25,3 +25,5 @@ function addAcadQual() {
     aqOb.insertBefore(newNode,weAddButtonOb2);
     
 }
+
+// genrating cv
